@@ -1,0 +1,11 @@
+command: [
+  "streamlit", 
+  "run",
+  "app.py"
+]
+env:
+  - name: "GENIE_SPACE_ID"
+    value: "01f0f2c65bbd107f9e0ec53c445e3e61"
+  # Power BI (Option A: Secure Embed) – can hardcode URL in app or store here
+  - name: "PBI_SECURE_EMBED_URL"
+    value: "https://app.powerbi.com/reportEmbed?reportId=6cad26a3-24d2-4cee-8f06-3ff63e976bf0&autoAuth=true&ctid=bbd653ef-14ce-407f-a86f-7ff3520a25cb"
